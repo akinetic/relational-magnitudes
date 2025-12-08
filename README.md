@@ -12,6 +12,14 @@ The **relational position** ($\mathbf{r}\_i$), **relational velocity** ($\mathbf
 
 $\mathbf{r}\_i = \vec{r}\_i$
 
-$\mathbf{v}\_i = \vec{v}\_i = \dfrac{d(\vec{r}\_i)}{dt}$
+$\mathbf{v}\_i = \dfrac{d(\vec{r}\_i)}{dt} = \vec{v}\_i$
 
-$\mathbf{a}\_i = \vec{a}\_i = \dfrac{d^2(\vec{r}\_i)}{dt^2}$
+$\mathbf{a}\_i = \dfrac{d^2(\vec{r}\_i)}{dt^2} = \vec{a}\_i$
+
+Where $\vec{r}\_i$, $\vec{v}\_i$ and $\vec{a}\_i$ are the ordinary vectorial position, ordinary vectorial velocity, and ordinary vectorial acceleration of the particle "i" with respect to the **Arbitrary Reference System**.
+
+**Note**
+
+The Relational (Vectorial) Magnitudes are always the same as the Ordinary (Vectorial) Magnitudes in the Auxiliary Reference System.
+
+---
