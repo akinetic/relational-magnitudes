@@ -57,3 +57,7 @@ $\mathbf{a}'\_i \doteq (\vec{a}'\_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}
 
 ---
 
+## IV. Bibliography
+
+1.  A. Blatter, *A Reformulation of Classical Mechanics* (2015). [PDF](https://atorassa.github.io/physics-authors/blatter/english/pdf/09.pdf)
+2.  A. Tobla, *A Reformulation of Classical Mechanics* (2024). [PDF](https://atorassa.github.io/physics-authors/tobla/english/pdf/02.pdf)
