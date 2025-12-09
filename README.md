@@ -6,7 +6,7 @@
 
 ## I. Definitions I (Relational Magnitudes)
 
-The **relational position** ($\mathbf{r}\_i$), **relational velocity** ($\mathbf{v}\_i$), and **relational acceleration** ($\mathbf{a}\_i$) of a **particle $i$**, relative to an **Auxiliary Reference Frame**, are given by:
+The **relational position** ($\mathbf{r}\_i$), **relational velocity** ($\mathbf{v}\_i$), and **relational acceleration** ($\mathbf{a}\_i$) of a **particle $i$** with respect to an **Auxiliary Reference Frame**, are given by:
 
 $\mathbf{r}\_i \doteq \vec{r}\_i$
 
