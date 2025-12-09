@@ -6,7 +6,7 @@
 
 ## I. Definiciones I (Magnitudes Relacionales)
 
-La **posición relacional** ($\mathbf{r}\_i$), la **velocidad relacional** ($\mathbf{v}\_i$) y la **aceleración relacional** ($math\bf{a}\_i$) de una **partícula $i$**, con respecto a un **Sistema de Referencia Auxiliar**, están dadas por:
+La **posición relacional** ($\mathbf{r}\_i$), la **velocidad relacional** ($\mathbf{v}\_i$) y la **aceleración relacional** ($\mathbf{a}\_i$) de una **partícula $i$** con respecto a un **Sistema de Referencia Auxiliar**, están dadas por:
 
 $\mathbf{r}\_i \doteq \vec{r}\_i$
 
