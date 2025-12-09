@@ -1,4 +1,4 @@
-# Magnitudes Relacionales, Definiciones y Transformaciones
+# Magnitudes Relacionales
 
 > **Las Magnitudes Relacionales son cantidades vectoriales invariantes que conservan su valor y forma bajo transformaciones de traslación y rotación.**
 
