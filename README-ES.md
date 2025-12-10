@@ -1,6 +1,6 @@
 # Magnitudes Relacionales
 
-> **Las Magnitudes Relacionales son cantidades vectoriales invariantes que conservan su valor y forma bajo transformaciones de traslación y rotación.**
+> **Las Magnitudes Relacionales son magnitudes vectoriales invariantes que conservan su valor y forma bajo transformaciones de traslación y rotación.**
 
 ---
 
@@ -14,7 +14,7 @@ $\mathbf{v}\_i \doteq \dfrac{d(\vec{r}\_i)}{dt} = \vec{v}\_i$
 
 $\mathbf{a}\_i \doteq \dfrac{d^2(\vec{r}\_i)}{dt^2} = \vec{a}\_i$
 
-Donde $\vec{r}\_i$, $\vec{v}\_i$ y $\vec{a}\_i$ son la posición vectorial ordinaria, velocidad y aceleración de la partícula $i$ con respecto al Sistema de Referencia Auxiliary.
+Donde $\vec{r}\_i$, $\vec{v}\_i$ y $\vec{a}\_i$ son la posición, velocidad y aceleración vectorial ordinaria de la partícula $i$ con respecto al Sistema de Referencia Auxiliar.
 
 **Nota**
 
@@ -33,7 +33,7 @@ $\mathbf{v}\_i \doteq (\vec{v}\_i - \vec{V}) - \vec{\omega} \times (\vec{r}\_i -
 $\mathbf{a}\_i \doteq (\vec{a}\_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}\_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}\_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}\_i - \vec{R})$
 
 Donde:
-* $\vec{r}\_i, \vec{v}\_i, \vec{a}\_i$ son la posición vectorial ordinaria, velocidad y aceleración de la partícula $i$ con respecto al Sistema $S$.
+* $\vec{r}\_i, \vec{v}\_i, \vec{a}\_i$ son la posición, velocidad y aceleración vectorial ordinaria de la partícula $i$ con respecto al Sistema $S$.
 * $\vec{R}, \vec{V}, \vec{A}$ son la posición, velocidad y aceleración del origen del Sistema Auxiliar con respecto a $S$.
 * $\vec{\omega}$ y $\vec{\alpha}$ son la velocidad angular y la aceleración angular del Sistema Auxiliar con respecto a $S$.
 
@@ -41,7 +41,7 @@ Donde:
 
 ## III. Transformaciones (Invarianza$\cdot$Relaciones)
 
-Las transformaciones de la posición relacional, la velocidad relacional y la aceleración relacional de una partícula $i$ entre un Sistema de Referencia $S$ y otro Sistema de Referencia $S'$, están dadas por:
+Las transformaciones de la posición relacional ($\mathbf{r}\_i$), la velocidad relacional ($\mathbf{v}\_i$) y la aceleración relacional ($\mathbf{a}\_i$) de una partícula $i$ entre un Sistema $S$ y otro Sistema $S'$, están dadas por:
 
 $\mathbf{r}\_i \doteq (\vec{r}\_i - \vec{R}) = \mathbf{r}'\_i$
 
