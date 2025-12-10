@@ -1,0 +1,97 @@
+
+\documentclass[10pt]{article}
+%\documentclass[a4paper,10pt]{article}
+%\documentclass[letterpaper,10pt]{article}
+
+\usepackage[dvips]{geometry}
+\geometry{papersize={162.0mm,270.0mm}}
+\geometry{totalwidth=141.0mm,totalheight=234.0mm}
+
+\usepackage[spanish]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath,bm}
+
+\frenchspacing
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,bookmarksopen=true}
+\hypersetup{bookmarksnumbered=true,pdfstartview=FitH,pdfpagemode=UseNone}
+\hypersetup{pdftitle={Magnitudes Relacionales}}
+\hypersetup{pdfauthor={Alex Kinetic}}
+
+\setlength{\arraycolsep}{1.74pt}
+
+\begin{document}
+
+\enlargethispage{+0.00em}
+
+\noindent \textbf{{\Large MAGNITUDES RELACIONALES}}
+
+\bigskip \bigskip
+
+\normalsize
+
+\noindent Las Magnitudes Relacionales son magnitudes vectoriales invariantes que conservan su valor y forma bajo transformaciones de traslación y rotación.
+
+\vspace{-0.60em}
+
+\par \bigskip {\subsection*{I. Definiciones I (Magnitudes Relacionales)}}\addcontentsline{toc}{subsection}{I. Definiciones I (Magnitudes Relacionales)}
+
+\noindent La posición relacional ($\mathbf{r}_i$), la velocidad relacional ($\mathbf{v}_i$) y la aceleración relacional ($\mathbf{a}_i$) de una partícula $i$ con respecto a un Sistema de Referencia Auxiliar, están dadas por:
+
+\bigskip $\mathbf{r}_i \doteq \vec{r}_i$
+
+\bigskip $\mathbf{v}_i \doteq d(\vec{r}_i) / dt = \vec{v}_i$
+
+\bigskip $\mathbf{a}_i \doteq d^2(\vec{r}_i) / dt^2 = \vec{a}_i$
+
+\bigskip
+
+\noindent Donde $\vec{r}_i$, $\vec{v}_i$ y $\vec{a}_i$ son la posición, velocidad y aceleración vectorial ordinaria de la \hbox {partícula $i$} con respecto al Sistema de Referencia Auxiliar.
+
+\bigskip
+
+\noindent \textbf{Nota}: Las Magnitudes Relacionales (Vectoriales) son siempre las mismas que las Magnitudes Ordinarias (Vectoriales) en el Sistema de Referencia Auxiliar.
+
+\par \bigskip {\subsection*{II. Definiciones II (Magnitudes Relacionales)}}\addcontentsline{toc}{subsection}{II. Definiciones II (Magnitudes Relacionales)}
+
+\noindent La posición relacional ($\mathbf{r}_i$), la velocidad relacional ($\mathbf{v}_i$) y la aceleración relacional ($\mathbf{a}_i$) de una partícula $i$ con respecto a cualquier Sistema de Referencia $S$, están dadas por:
+
+\bigskip $\mathbf{r}_i \doteq \vec{r}_i - \vec{R}$
+
+\bigskip $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R})$
+
+\bigskip $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}_i - \vec{R})$
+
+\bigskip
+
+\noindent Donde: $\vec{r}_i, \vec{v}_i, \vec{a}_i$ son la posición, velocidad y aceleración vectorial ordinaria de la \hbox {partícula $i$} con respecto al Sistema $S$. $\vec{R}, \vec{V}, \vec{A}$ son la posición, velocidad y aceleración del origen del Sistema Auxiliar con respecto a $S$. $\vec{\omega}$ y $\vec{\alpha}$ son la velocidad angular y la aceleración angular del Sistema Auxiliar con respecto a $S$.
+
+\par \bigskip {\subsection*{III. Transformaciones (Invarianza$\cdot$Relaciones)}}\addcontentsline{toc}{subsection}{III. Transformaciones (Invarianza$\cdot$Relaciones)}
+
+\noindent Las transformaciones de la posición relacional ($\mathbf{r}_i$), la velocidad relacional ($\mathbf{v}_i$) y la aceleración relacional ($\mathbf{a}_i$) de una partícula $i$ entre un Sistema $S$ y otro Sistema $S'$, están dadas por:
+
+\bigskip $\mathbf{r}_i \doteq (\vec{r}_i - \vec{R}) = \mathbf{r}'_i$
+
+\bigskip $\mathbf{r}'_i \doteq (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}') = \mathbf{r}_i$
+
+\bigskip $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R}) = \mathbf{v}'_i$
+
+\bigskip $\mathbf{v}'_i \doteq (\vec{v}'_i - \vec{V}') - \vec{\omega}' \times (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}') = \mathbf{v}_i$
+
+\bigskip $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}_i - \vec{R}) = \mathbf{a}'_i$
+
+\bigskip $\mathbf{a}'_i \doteq (\vec{a}'_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'_i - \vec{V}') + \vec{\omega}' \times [\ \vec{\omega}' \times (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}')\ ] - \vec{\alpha}' \times (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}') = \mathbf{a}_i$
+
+\medskip
+
+\par \bigskip {\subsection*{IV. Bibliografía}}\addcontentsline{toc}{subsection}{IV. Bibliografía}
+
+\noindent [\,1\,] \textbf{A. Blatter}, Una Reformulación de la Mecánica Clásica, (2015)\hspace{+0.09em}.\hspace{+0.09em}(\hspace{+0.09em}\href{https://atorassa.github.io/physics-authors/blatter/spanish/pdf/09.pdf}{\texttt{PDF}}\hspace{+0.09em})
+
+\bigskip
+
+\noindent [\,2\,] \textbf{A. Tobla}, Una Reformulación de la Mecánica Clásica, (2024)\hspace{+0.09em}.\hspace{+0.09em}(\hspace{+0.09em}\href{https://atorassa.github.io/physics-authors/tobla/spanish/pdf/02.pdf}{\texttt{PDF}}\hspace{+0.09em})
+
+\end{document}

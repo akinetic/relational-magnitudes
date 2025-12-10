@@ -1,0 +1,97 @@
+
+\documentclass[10pt]{article}
+%\documentclass[a4paper,10pt]{article}
+%\documentclass[letterpaper,10pt]{article}
+
+\usepackage[dvips]{geometry}
+\geometry{papersize={162.0mm,270.0mm}}
+\geometry{totalwidth=141.0mm,totalheight=234.0mm}
+
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath,bm}
+
+%\frenchspacing
+
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue,bookmarksopen=true}
+\hypersetup{bookmarksnumbered=true,pdfstartview=FitH,pdfpagemode=UseNone}
+\hypersetup{pdftitle={Relational Magnitudes}}
+\hypersetup{pdfauthor={Alex Kinetic}}
+
+\setlength{\arraycolsep}{1.74pt}
+
+\begin{document}
+
+\enlargethispage{+0.00em}
+
+\noindent \textbf{{\Large RELATIONAL MAGNITUDES}}
+
+\bigskip \bigskip
+
+\normalsize
+
+\noindent Relational Magnitudes are invariant vectorial quantities that conserve their value and form under transformations of translation and rotation.
+
+\vspace{-0.60em}
+
+\par \bigskip {\subsection*{I. Definitions I (Relational Magnitudes)}}\addcontentsline{toc}{subsection}{I. Definitions I (Relational Magnitudes)}
+
+\noindent The relational position ($\mathbf{r}_i$), relational velocity ($\mathbf{v}_i$), and relational acceleration ($\mathbf{a}_i$) of a particle $i$ with respect to an Auxiliary Reference Frame, are given by:
+
+\bigskip $\mathbf{r}_i \doteq \vec{r}_i$
+
+\bigskip $\mathbf{v}_i \doteq d(\vec{r}_i) / dt = \vec{v}_i$
+
+\bigskip $\mathbf{a}_i \doteq d^2(\vec{r}_i) / dt^2 = \vec{a}_i$
+
+\bigskip
+
+\noindent Where $\vec{r}_i$, $\vec{v}_i$ and $\vec{a}_i$ are the ordinary vectorial position, velocity, and acceleration of the particle $i$ with respect to the Auxiliary Reference Frame.
+
+\bigskip
+
+\noindent \textbf{Note}: The Relational (Vectorial) Magnitudes are always the same as the Ordinary \hbox {(Vectorial)} Magnitudes in the Auxiliary Reference Frame.
+
+\par \bigskip {\subsection*{II. Definitions II (Relational Magnitudes)}}\addcontentsline{toc}{subsection}{II. Definitions II (Relational Magnitudes)}
+
+\noindent The relational position ($\mathbf{r}_i$), relational velocity ($\mathbf{v}_i$), and relational acceleration ($\mathbf{a}_i$) of a particle $i$ with respect to any Reference Frame $S$, are given by:
+
+\bigskip $\mathbf{r}_i \doteq \vec{r}_i - \vec{R}$
+
+\bigskip $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R})$
+
+\bigskip $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}_i - \vec{R})$
+
+\bigskip
+
+\noindent Where: $\vec{r}_i, \vec{v}_i, \vec{a}_i$ are the ordinary vectorial position, velocity, and acceleration of \hbox {particle $i$} with respect to the Frame $S$. $\vec{R}, \vec{V}, \vec{A}$ are the position, velocity, and acceleration of the Auxiliary Frame's origin with respect to $S$. $\vec{\omega}$ and $\vec{\alpha}$ are the angular velocity and angular acceleration of the Auxiliary Frame with respect to $S$.
+
+\par \bigskip {\subsection*{III. Transformations (Invarianza$\cdot$Relations)}}\addcontentsline{toc}{subsection}{III. Transformations (Invarianza$\cdot$Relations)}
+
+\noindent The transformations of relational position, relational velocity and relational acceleration of a particle $i$ between a Reference Frame $S$ and another Reference Frame $S'$, are given by:
+
+\bigskip $\mathbf{r}_i \doteq (\vec{r}_i - \vec{R}) = \mathbf{r}'_i$
+
+\bigskip $\mathbf{r}'_i \doteq (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}') = \mathbf{r}_i$
+
+\bigskip $\mathbf{v}_i \doteq (\vec{v}_i - \vec{V}) - \vec{\omega} \times (\vec{r}_i - \vec{R}) = \mathbf{v}'_i$
+
+\bigskip $\mathbf{v}'_i \doteq (\vec{v}'_i - \vec{V}') - \vec{\omega}' \times (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}') = \mathbf{v}_i$
+
+\bigskip $\mathbf{a}_i \doteq (\vec{a}_i - \vec{A}) - 2\vec{\omega} \times (\vec{v}_i - \vec{V}) + \vec{\omega} \times [\ \vec{\omega} \times (\vec{r}_i - \vec{R})\ ] - \vec{\alpha} \times (\vec{r}_i - \vec{R}) = \mathbf{a}'_i$
+
+\bigskip $\mathbf{a}'_i \doteq (\vec{a}'_i - \vec{A}') - 2\vec{\omega}' \times (\vec{v}'_i - \vec{V}') + \vec{\omega}' \times [\ \vec{\omega}' \times (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}')\ ] - \vec{\alpha}' \times (\vec{r}\hspace{+0.09em}'\hspace{-0.36em}_i - \vec{R}') = \mathbf{a}_i$
+
+\medskip
+
+\par \bigskip {\subsection*{IV. Bibliography}}\addcontentsline{toc}{subsection}{IV. Bibliography}
+
+\noindent [\,1\,] \textbf{A. Blatter}, A Reformulation of Classical Mechanics, (2015)\hspace{+0.09em}.\hspace{+0.09em}(\hspace{+0.09em}\href{https://atorassa.github.io/physics-authors/blatter/english/pdf/09.pdf}{\texttt{PDF}}\hspace{+0.09em})
+
+\bigskip
+
+\noindent [\,2\,] \textbf{A. Tobla}, A Reformulation of Classical Mechanics, (2024)\hspace{+0.09em}.\hspace{+0.09em}(\hspace{+0.09em}\href{https://atorassa.github.io/physics-authors/tobla/english/pdf/02.pdf}{\texttt{PDF}}\hspace{+0.09em})
+
+\end{document}
